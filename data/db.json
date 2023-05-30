@@ -1,0 +1,64 @@
+{
+  "services": [
+    {
+      "id": 2,
+      "photo": "../../images/photo-camera-interface-symbol-for-button.png",
+      "title": "PHOTOGRAPHY",
+      "desc": "Lorem Ipsum is a simply dummy texts of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since."
+    },
+    {
+      "id": 3,
+      "photo": "../../images/setting.png",
+      "title": "ONLINE MARKETING",
+      "desc": "Lorem Ipsum is a simply dummy texts of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since."
+    },
+    {
+      "id": 4,
+      "photo": "../../images/rocket.png",
+      "title": "WEB DEVELOPMENT",
+      "desc": "Lorem Ipsum is a simply dummy texts of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since."
+    },
+    {
+      "id": 6,
+      "photo": "../../images/setting.png",
+      "title": "ONLINE MARKETING",
+      "desc": "Lorem Ipsum is a simply dummy texts of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since."
+    },
+    {
+      "id": 7,
+      "photo": "../../images/rocket.png",
+      "title": "WEB DEVELOPMENT",
+      "desc": "Lorem Ipsum is a simply dummy texts of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since."
+    },
+    {
+      "id": 12,
+      "photo": "../../images/photo-camera-interface-symbol-for-button.png",
+      "title": "PHOTOGRAPHY",
+      "desc": "Lorem Ipsum is a simply dummy texts of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since."
+    },
+    {
+      "id": 13,
+      "photo": "../../images/setting.png",
+      "title": "ONLINE MARKETING",
+      "desc": "Lorem Ipsum is a simply dummy texts of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since."
+    },
+    {
+      "id": 14,
+      "photo": "../../images/rocket.png",
+      "title": "WEB DEVELOPMENT",
+      "desc": "Lorem Ipsum is a simply dummy texts of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since."
+    },
+    {
+      "id": 16,
+      "photo": "../../images/setting.png",
+      "title": "ONLINE MARKETING",
+      "desc": "Lorem Ipsum is a simply dummy texts of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since."
+    },
+    {
+      "id": 17,
+      "photo": "../../images/rocket.png",
+      "title": "WEB DEVELOPMENT",
+      "desc": "Lorem Ipsum is a simply dummy texts of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since."
+    }
+  ]
+}

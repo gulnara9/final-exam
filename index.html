@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./scss/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header1">
+      <div class="container">
+        <div class="header-1">
+          <div class="number-and-email">
+            <div class="number">
+              <i class="fa-solid fa-phone"></i>+880 1911 854 378
+            </div>
+            <div class="email">
+              <i class="fa-regular fa-envelope"></i>backpiper.com@gmail.com
+            </div>
+          </div>
+          <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <header class="header2 header22">
+      <div class="container">
+        <div class="header-2">
+          <img src="./images/logo (2).png" alt="" />
+          <i class="fa-solid fa-bars"> MENU</i>
+          <nav>
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">FEATURES</a></li>
+              <li><a href="#">SERVICE</a></li>
+              <li><a href="#">PORTFOLIO</a></li>
+              <li><a href="#">TEAM</a></li>
+              <li><a href="#">CLIENTS</a></li>
+              <li><a href="#">PRICING</a></li>
+              <li><a href="#">NEWS</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="section-slider">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="./images/slide-1 (1).jpg"
+              alt="First slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h4>We are</h4>
+              <h2>BUSİNESS THEME CREATOR</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                veritatis blanditiis minima. Deleniti, dolorem?
+              </p>
+              <div class="button-project">
+                <a href="" class="our-project">SEE OUR PROJECT</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./images/slide_1.jpg"
+              alt="Second slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h4>We are</h4>
+              <h2>BUSİNESS THEME CREATOR</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                veritatis blanditiis minima. Deleniti, dolorem?
+              </p>
+              <div class="button-project">
+                <a href="" class="our-project">SEE OUR PROJECT</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./images/slide_2.jpg"
+              alt="Third slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h4>We are</h4>
+              <h2>BUSİNESS THEME CREATOR</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                veritatis blanditiis minima. Deleniti, dolorem?
+              </p>
+              <div class="button-project">
+                <a href="" class="our-project">SEE OUR PROJECT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <section class="section-cards">
+      <div class="container">
+        <div class="search-sort-addcard d-flex">
+          <input
+            type="search"
+            class="search form-control w-50 m-2"
+            placeholder="Search"
+          />
+          <button class="sort btn btn-info m-2">Sort</button>
+        </div>
+        <div class="cards d-flex flex-wrap">
+          <!-- <div class="card">
+            <div class="image"><img src="./images/rocket.png" alt="" /></div>
+            <div class="card-body">
+              <h1>WEB DEVELOPMENT</h1>
+              <p>
+                Lorem Ipsum is a simply dummy texts of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since.
+              </p>
+              <div class="button">
+                <a href="" class="learn-more-btn">LEARN MORE</a>
+              </div>
+              <div class="buttonss">
+                <a href="addedit.html?id=${element.id}" class="edit-btn same"
+                  >EDIT</a
+                >
+                <button
+                  class="delete-btn same"
+                  onclick="deleteCard(${element.id},this)"
+                >
+                  DELETE
+                </button>
+                <button class="fav-btn same" onclick="addFav(${element.id})">
+                  ADD FAV
+                </button>
+              </div>
+            </div> -->
+        </div>
+        <button id="load-more-btn" class="btn btn-secondary">Load more</button>
+      </div>
+      <!-- </div> -->
+    </section>
+    <section class="projects-section">
+      <div class="container">
+        <h1>OUR AWESOME PROJECTS</h1>
+        <div class="paragraph">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type.
+          </p>
+        </div>
+        <div class="row">
+          <div class="box box1 col-md-4 col-lg-4 col-sm-6 col-xs-12">
+            <div class="text">
+              <div class="txts">
+                <div class="texts">
+                  <h1>WEB DEVELOPMENT</h1>
+                  <p>Business/Service/Product/Template</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box box2 col-md-4 col-lg-4 col-sm-6 col-xs-12">
+            <div class="text">
+              <div class="txts">
+                <div class="texts">
+                  <h1>WEB DEVELOPMENT</h1>
+                  <p>Business/Service/Product/Template</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box box3 col-md-4 col-lg-4 col-sm-6 col-xs-12">
+            <div class="text">
+              <div class="txts">
+                <div class="texts">
+                  <h1>WEB DEVELOPMENT</h1>
+                  <p>Business/Service/Product/Template</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box box4 col-md-4 col-lg-4 col-sm-6 col-xs-12">
+            <div class="text">
+              <div class="txts">
+                <div class="texts">
+                  <h1>WEB DEVELOPMENT</h1>
+                  <p>Business/Service/Product/Template</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box box5 col-md-4 col-lg-4 col-sm-6 col-xs-12">
+            <div class="text">
+              <div class="txts">
+                <div class="texts">
+                  <h1>WEB DEVELOPMENT</h1>
+                  <p>Business/Service/Product/Template</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="team-member">
+      <div class="container">
+        <div class="cardss d-flex">
+          <div class="card me-2" style="width: 20rem">
+            <img src="./images/member-1.jpg" alt="" width="100%" />
+          </div>
+          <div class="card me-2" style="width: 20rem">
+            <img src="./images/member-2.jpg" alt="" width="100%" />
+          </div>
+          <div class="card me-2" style="width: 20rem">
+            <img src="./images/member-3.jpg" alt="" width="100%" />
+            <div class="text">
+              <h3>TOPSMMPANEL.COM</h3>
+              <p>CHEF</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"
+      integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

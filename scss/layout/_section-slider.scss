@@ -1,0 +1,50 @@
+.section-slider {
+  .carousel {
+    .carousel-inner {
+      .carousel-item {
+        position: relative;
+        height: 100vh;
+        .carousel-caption {
+          padding: 70px;
+          position: absolute;
+          left: 0;
+          top: 30%;
+          color: black;
+          display: flex;
+          flex-direction: row;
+          max-width: 700px;
+          justify-content: flex-start;
+          row-gap: 50px;
+          line-height: 100px;
+          h4 {
+            font-size: 24px;
+            font-weight: 700;
+            text-align: left;
+          }
+          h2 {
+            text-align: left;
+            font-size: 36px;
+            font-weight: 700;
+          }
+          p {
+            text-align: left;
+            line-height: 20px;
+          }
+          .button-project {
+            float: left;
+            .our-project {
+              width: max-content;
+              box-sizing: border-box;
+              padding: 10px 20px;
+              background-color: #26b7e7;
+              border-radius: 8px;
+              color: white;
+              font-weight: 700;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

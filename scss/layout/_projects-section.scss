@@ -1,0 +1,107 @@
+.projects-section {
+  padding-top: 100px;
+  h1 {
+    text-align: center;
+    position: relative;
+    font-size: 36px;
+    font-weight: 700;
+    &::after {
+      background: #26b7e7 none repeat scroll 0 0;
+      bottom: 0;
+     
+      content: "";
+      height: 3px;
+      left: 50%;
+      position: absolute;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      width: 35px;
+    }
+  }
+  .paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      text-align: center;
+      width: 600px;
+    }
+    margin: 40px 0;
+  }
+  .box {
+    max-width: 360px;
+    height: 260px;
+    .text {
+      display: none;
+      .txts {
+        background-color: rgb(38, 183, 231, 0.6);
+        width: 360px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .texts {
+          color: white;
+          padding: 90px 30px;
+          border: 1px solid white;
+          line-height: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          box-sizing: border-box;
+          h1 {
+            font-weight: 700;
+            font-size: 24px;
+          }
+          p {
+            font-size: 16px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+    &:hover .text {
+      display: block;
+    }
+  }
+  .box:nth-child(1) {
+    background-image: url("../../images/portfolio_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+  .box:nth-child(2) {
+    background-image: url("../../images/portfolio_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+  .box:nth-child(3) {
+    background-image: url("../../images/portfolio_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+  .box:nth-child(4) {
+    background-image: url("../../images/portfolio_4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+  .box:nth-child(5) {
+    background-image: url("../../images/portfolio_5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+  // .box:nth-child(1){
+  //     background-image: url(/images/insta_1.jpg);
+
+  // }
+}
